@@ -1,0 +1,162 @@
+.three{
+    height:100px;
+    background-image:linear-gradient{to bottom,cyan,white};
+}
+.one{
+    position:relative;
+    text-align:center;
+    color:white;
+    animation-name:hed;
+    animation-duration:10s;
+    animation-iteration-count:infinite;
+    transition:1s;
+    
+}
+.one:hover{
+    transform:scale(1.1);
+    color:red;
+    animation-play-state:paused;
+}
+@keyframes hed{ 
+    0%{left:50px;} 
+    25%{left:300px;} 
+    50%{left:-300px;} 
+    75%{left:50px;}
+     100%{left:50px;}
+}
+.four{
+    height:500px;
+    width:750px;
+    background-color:grey;
+    position:absolute;
+    left:300px;
+    text-align:center;
+    transition:1s;
+    
+}
+.four:hover{
+    animation-name:dv;
+    animation-duration:3s;
+    animation-iteration-count:infinite;
+    transform:scale(0.9);
+    background-color:yellow;
+
+}
+@keyframes dv{
+    0%{(transform:scale(1.1));}
+    50%{transform:scale(1);}
+    100%{transform:scale(0.9);}
+}
+.seven{
+    width:400px;
+    height:400px;
+}
+.seven:hover{
+    animation-name:cr;
+    animation-duration:2s;
+    animation-iteration-count:infinite;
+    transition:1s;
+
+}
+@keyframes cr{
+    0%{background-color:blue
+        ]0;}
+    25%{background-color:balck
+        ;}
+    50%{background-color:yellow;}
+    75%{background-color:orange;}
+    100%{background-color:green;}
+}
+.egt{
+    position:absolute;
+    top:200px;
+    left:800px;
+    bodrder-style:groove 5px;
+    border-radius:30px 0px;
+    border-width:20px;
+    border-color:blue;
+    background-color:white;
+    transition:2s;
+
+}
+.egt:hover{
+    transform:scale(1.1);
+    background-color:aqua;
+
+}
+.nine{
+    height:50px;
+    width:50px;
+    border-style:groove 5px;
+    border-radius:50px;
+    background-color:blue;
+    position:relative;
+    animation-name:dev;
+    animation-duration:10s;
+    animation-iteration-count:infinite;
+}
+.nine:hover{
+    animation-play-state:paused;
+    background-color:antiquewhite;
+}
+@keyframes dev{
+    0%{left:0px;
+    top:0px;}
+    25%{left:1200px;
+    top:0px;
+    background-color:red;}
+    50%{left:1200px;
+    top:450px;
+     background-color:yellow;}
+    75%{left:0px;
+    top:450px;
+    background-color:green;}
+    100%{
+        left:0px;
+        top:0px;
+    }
+}
+@keyframes bdev{
+    0%{right:0px;
+    bottom:0px;}
+    25%{right:1200px;
+    bottom:0px;}
+    50%{right:1200px;
+    bottom:450px;}
+    75%{right:0px;
+    bottom:450px;}
+    100%{
+        left:0px;
+        
+    }
+}
+.ten{
+    height:50px;
+    width:50px;
+    border-style:groove 5px;
+    border-radius:50px;
+    background-color:blue;
+    position:relative;
+    animation-name:mvg;
+    animation-duration:10s;
+    animation-iteration-count:infinite;
+}
+.ten:hover{
+    animation-play-state:paused;
+    background-color:antiquewhite;
+}
+@keyframes mvg{
+    0%{top:350px;
+    left:0px;}
+    25%{top:350px;
+    left:1200px;
+     background-color:red;}
+    50%{top:0px;
+    left:1200px;
+    background-color:yellow;}
+    75%{top:0px;
+    left:0px;
+    background-color:green;}
+    100%{top:350px;
+        left:0px}
+}
